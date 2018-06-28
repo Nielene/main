@@ -2,6 +2,11 @@
 <html>
 <head>
 	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" />
+		
+		<!-- dafont.com -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<style type="text/css">
 		body{
@@ -12,17 +17,28 @@
 			background-position: center;
 		}
 
+		.section{
+			background-color: rgba(255,255,255,0.3);
+			height: 100vh;
+		}
+
 		h1{
 			color: orange;
 			text-align: center;
 			font-size: 70px;
+			font-family: "Times New Roman", Times, serif;
+			font-style: italic;
+			font-weight: bold;
+			
 		}
 
 		tr, th{
-			border: solid 5px black;
+			border: solid 5px orange;
 			/*align-content: center;*/
 			margin-left: auto;
 			margin-right: auto;
+			text-align: center;
+			font-family: "Times New Roman", Times, serif;
 
 		}
 
@@ -33,14 +49,20 @@
 			/*position: center;*/
 		}
 
+		.box{
+			background-color: rgba(255,255,255,0.3);
+		}
+
 		.box1{
 			background-image: url(https://images.pexels.com/photos/797394/pexels-photo-797394.jpeg?auto=compress&cs=tinysrgb&h=350);
 			background-position: center;
+			
 		}
 
 		.box2{
 			background-image: url(https://www.sassyhongkong.com/wp-content/uploads/2018/02/group-dining-dinner-hong-kong.jpg);
 			background-position: center;
+			
 		}
 
 
@@ -63,30 +85,31 @@
 
 </head>
 <body>
+	<div class="section ">
+
+		<h1>Nielene's Portfolio</h1>
+
+
+
+		<table align="center">
+			<tr> 
+	<!-- "this" keyword is this entire th element -->
+				<div class="box">
+					<th class="box1"> <a href="https://nielene.github.io/" target="_blank"> Digital Portfolio</a></th>
+				</div>
+				<div class="box">			
+					<th class="box2"> <a href="https://nielene.github.io/costSplitter/" target="_blank">Cost Splitter</a> </th>
+				</div>	
+			</tr>
+			
+		</table>
+
 	
 
-	<h1>Nielene's Portfolio</h1>
+		<script>
 
+		</script>
 
-
-	<table align="center">
-		<tr> 
-<!-- "this" keyword is this entire th element -->
-			<th class="box1"> <a href="https://nielene.github.io/" target="_blank"> Digital Portfolio</a></th>
-			
-			<th class="box2"> <a href="https://nielene.github.io/costSplitter/" target="_blank">Cost Splitter</a> </th>
-			
-		</tr>
-		
-	</table>
-
-
-
-	<script>
- 
-
-
-	</script>
-
+	</div>
 </body>
 </html>
